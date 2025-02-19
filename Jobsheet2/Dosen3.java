@@ -7,16 +7,18 @@ public class Dosen3 {
     int tahunBergabung;
     String bidangKeahlihan;
 
-    public Dosen3() {}
+    public Dosen3() {
+    }
+
     public Dosen3(
-        String _idDosen, String _nama, boolean _statusAktif, int _tahunGabung, String _bidangKeahlihan
-    ) {
+            String _idDosen, String _nama, boolean _statusAktif, int _tahunGabung, String _bidangKeahlihan) {
         idDosen = _idDosen;
         nama = _nama;
         statusAktif = _statusAktif;
         tahunBergabung = _tahunGabung;
         bidangKeahlihan = _bidangKeahlihan;
     }
+
     void tampilkanInformasi() {
         System.out.println("ID Dosen : " + idDosen);
         System.out.println("Nama : " + nama);
@@ -25,11 +27,12 @@ public class Dosen3 {
         System.out.println("Bidang Keahlian : " + bidangKeahlihan);
     }
 
-    void setStatusAktif (boolean _statusAktif) {
+    void setStatusAktif(boolean _statusAktif) {
         statusAktif = _statusAktif;
         System.out.println("Status Aktif  " + statusAktif);
     }
-    int hitungMasakerja (int _thnNow) {
+
+    int hitungMasakerja(int _thnNow) {
         if (_thnNow < tahunBergabung) {
             System.out.println("Tahun tidak valid");
         } else {
@@ -39,8 +42,7 @@ public class Dosen3 {
     }
 
     void ubahKealhian(String _bidangKeahlihan) {
-        bidangKeahlihan = _bidangKeahlihan ;
+        bidangKeahlihan = _bidangKeahlihan;
         System.out.println("Bidang Keahlian : " + bidangKeahlihan);
     }
 }
-

@@ -1,6 +1,6 @@
 package Jobsheet2;
 
-public class Dosen3Main {
+public class DosenMain3 {
     public static void main(String[] args) {
         Dosen3 Akhmad = new Dosen3();
         Akhmad.tampilkanInformasi();

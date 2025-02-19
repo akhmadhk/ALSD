@@ -17,11 +17,11 @@ public class MahasiswaMain3 {
         mhs2.updateIPK(3.30);
         mhs2.tampilkanInformasi();
 
-        Mahasiswa3 mhs3 = new Mahasiswa3(
-            "Akhmad Hasan Kurniawan", "22410706115", "S1 2J", 3.70
+        Mahasiswa3 AkhmadHasanKurniawan = new Mahasiswa3(
+            "Akhmad Hasan Kurniawan", "22410706115", "S1 2J", 3.20
         );
     
-        mhs3.tampilkanInformasi();
+        AkhmadHasanKurniawan.tampilkanInformasi();
 
     }
 }
